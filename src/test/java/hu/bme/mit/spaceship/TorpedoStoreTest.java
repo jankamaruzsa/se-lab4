@@ -17,7 +17,6 @@ class TorpedoStoreTest {
         // Assert
         assertEquals(true, result);
     }
-
     @Test
     void fire_Failure_Rate() {
         // Arrange
@@ -61,4 +60,5 @@ class TorpedoStoreTest {
         assertFalse(store.isEmpty());
         assertEquals(5, store.getTorpedoCount());
     }
+
 }
